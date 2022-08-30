@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "great";
+  src: url("/fonts/");
+}
+@font-face {
+  font-family: "ultra";
+  src: url("/fonts/Ultra-Regular.ttf");
+}
+@font-face {
+  font-family: "silk";
+  src: url("/fonts/jully\ julia.ttf");
+}
+body {
+  max-width: 100%;
+}
+.vert {
+  display: flex;
+  left: 130px;
+}
+#vertpic {
+  max-width: 33%;
+  z-index: 2;
+}
+#profile {
+  max-width: 90%;
+  position: absolute;
+  z-index: 1;
+  top: 8%;
+  left: 18.5%;
+  border-radius: 0% 20%;
+}
+.header_main {
+  display: flex;
+}
+.name {
+  font-family: "ultra";
+  font-size: 6rem;
+  color: white;
+}
+.name b {
+  font-size: 7rem;
+}
+.name #g,
+#p {
+  margin-left: 15%;
+}
+.name #r {
+  margin-left: 35%;
+}
+.intro {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  color: white;
+}
+.skills-section {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+.skill-img img {
+  height: 100px;
+  width: 100px;
+  padding: 5%;
+}
+.me {
+  font-size: 2.5rem;
+  font-family: "silk";
+  color: white;
+}
+.about {
+  display: flex;
+}
+#hexpic {
+  max-width: 70%;
+}
+
+.mmi {
+  display: flex;
+  position: relative;
+}
+.descript {
+  width: 100%;
+}
+#pl {
+  position: absolute;
+  top: 20%;
+  color: white;
+  font-family: Apple Chancery;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.pr {
+  text-align: center;
+  font-family: "ultra";
+  font-size: 3rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
+.leftdefi {
+  display: flex;
+  position: relative;
+}
+.slideshow-container2 {
+  position: relative;
+  width: 100%;
+  color: white;
+  left: 5%;
+}
+.sample {
+  width: 100%;
+}
+#def,
+#def2 {
+  position: absolute;
+  top: 20%;
+  color: white;
+  font-family: "Apple Symbols";
+  letter-spacing: 2px;
+}
+#def2 {
+  top: 45%;
+}
+
+.prev3 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 479px;
+  padding: 8px;
+  margin-top: -22px;
+  color: white;
+  background-color: rgb(67, 65, 65);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+}
+.next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 226px;
+  padding: 8px;
+  margin-top: -22px;
+  color: white;
+  background-color: rgb(67, 65, 65);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 10px 0px 0px 10px;
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  color: white;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  background-color: rgb(67, 65, 65);
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0px 0 3px;
+  color: white;
+}
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover,
+prev:hover,
+.next:hover {
+  background-color: rgb(155, 151, 151);
+}
+
+.slide {
+  color: white;
+}
+
+#proj-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+#proj-def {
+  font-family: "Apple Symbols";
+  font-size: 20px;
+}
+
+#footer-title {
+  font-family: "silk";
+  font-size: 30px;
+  color: white;
+}
+#cont {
+  font-family: "Baskerville";
+  font-size: 20px;
+  color: white;
+}
+footer .icon {
+  color: white;
+  font-size: 45px;
+  padding: 3%;
+}
