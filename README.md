@@ -1,1 +1,0 @@
-# JamaicaG.github.io
